@@ -6,5 +6,14 @@ target 'Messenger' do
   use_frameworks!
 
   # Pods for Messenger
+# Firebase
+  pod 'Firebase/Core' 	
+  pod 'Firebase/Auth' 
+  pod 'Firebase/Database' 
 
+# Facebook
+  pod 'FBSDKLoginKit'
+
+# Google
+  pod 'GoogleSignIn'
 end
